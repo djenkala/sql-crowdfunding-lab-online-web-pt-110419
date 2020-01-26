@@ -8,7 +8,7 @@
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_title
   "SELECT titles.projects FROM projects
-  LEFT OUTER JOIN ON amount.pledges, ORDER BY title.pledges;"
+  LEFT OUTER JOIN projects ON "
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
